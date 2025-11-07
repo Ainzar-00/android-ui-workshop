@@ -9,31 +9,28 @@
  Exercices réalisés 
  
 ### Exercice 1 : Calculatrice (LinearLayout) - 
-✅
- Interface avec LinearLayout - 
-✅
- Opérations d'addition et soustraction - 
-✅
- Validation des entrées 
+✅Interface avec LinearLayout <br>
+✅Opérations d'addition et soustraction <br>
+✅Validation des entrées <br>
  
 ### Exercice 2 : Profil Utilisateur (ConstraintLayout) - 
 ✅
- Interface avec ConstraintLayout - 
+ Interface avec ConstraintLayout <br>
 ✅
- Formulaire de profil - 
+ Formulaire de profil <br>
 ✅
- Mise à jour des informations 
+ Mise à jour des informations <br>
  
 ### Challenge : Application de Contact 
  - 
 ✅
- Formulaire complet avec tous les champs - 
+ Formulaire complet avec tous les champs <br>
 ✅
- RadioButtons pour catégories - 
+ RadioButtons pour catégories <br>
 ✅
- Validation complète - 
+ Validation complète <br>
 ✅
- Affichage formaté - 
+ Affichage formaté <br>
 ✅
  Fonction de réinitialisation 
  
@@ -47,9 +44,9 @@
 ## 
 
  Ce que j'ai appris - 
- Utilisation de ConstraintLayout
- Navigation entre activites
- Gestion des evenements en Kotlin
+ Utilisation de ConstraintLayout<br>
+ Navigation entre activites<br>
+ Gestion des evenements en Kotlin<br>
 
 ## 
 
