@@ -41,9 +41,7 @@
  <img width="427" height="737" alt="Screenshot 2025-11-07 185400" src="https://github.com/user-attachments/assets/a0d0c2cc-bf92-4511-aa52-18f83a2f8fe7" />
 <img width="511" height="785" alt="Screenshot 2025-11-07 185320" src="https://github.com/user-attachments/assets/ef88dafe-4d67-46a4-960c-7320b9ea9e8d" />
 
-## 
-
- Ce que j'ai appris - 
+## Ce que j'ai appris - 
  Utilisation de ConstraintLayout<br>
  Navigation entre activites<br>
  Gestion des evenements en Kotlin<br>
