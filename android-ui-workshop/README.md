@@ -41,7 +41,7 @@
 ![Calculatrice](screenshots/calculatrice.png) 
  
 ### Profil Utilisateur 
-![Profil](screenshots/profil.png) 
+![Profil](screenshots/profile.png) 
  
 ### Challenge Contact 
 ![Contact](screenshots/contact.png)
