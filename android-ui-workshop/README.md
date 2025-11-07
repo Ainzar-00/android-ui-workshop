@@ -34,12 +34,15 @@
 ✅
  Fonction de réinitialisation 
  
-## 
+## Captures d'écran 
+ ###Calculatrice 
+ <img width="490" height="635" alt="Screenshot 2025-11-07 185454" src="https://github.com/user-attachments/assets/43052b76-430c-459d-b6e8-858405fca91b" />
+  ### Profil Utilisateur 
+ <img width="427" height="737" alt="Screenshot 2025-11-07 185400" src="https://github.com/user-attachments/assets/6ed13159-a3f7-46d0-8e0e-ef97e5d4f29a" />
 
- Captures d'écran 
-<img width="490" height="635" alt="Screenshot 2025-11-07 185454" src="https://github.com/user-attachments/assets/2d499c47-4843-4e64-848f-cbe1f3db5c41" />
- <img width="427" height="737" alt="Screenshot 2025-11-07 185400" src="https://github.com/user-attachments/assets/a0d0c2cc-bf92-4511-aa52-18f83a2f8fe7" />
-<img width="511" height="785" alt="Screenshot 2025-11-07 185320" src="https://github.com/user-attachments/assets/ef88dafe-4d67-46a4-960c-7320b9ea9e8d" />
+ ### Challenge Contact 
+<img width="511" height="785" alt="Screenshot 2025-11-07 185320" src="https://github.com/user-attachments/assets/887d5dd5-2b53-4d68-9aa3-0c3eb8586ea8" />
+
 
 ## Ce que j'ai appris - 
  Utilisation de ConstraintLayout<br>
