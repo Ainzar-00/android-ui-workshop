@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Background color -->
+    <solid android:color="#4CAF50" /> <!-- Change to your color -->
+
+    <!-- Optional border -->
+    <stroke
+        android:width="2dp"
+        android:color="#388E3C" /> <!-- Change if you want -->
+
+    <!-- Size (useful if applied to Views that don’t have fixed width/height) -->
+    <size
+        android:width="100dp"
+        android:height="100dp" />
+
+</shape>
