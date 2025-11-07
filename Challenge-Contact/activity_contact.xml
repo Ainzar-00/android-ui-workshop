@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ContactActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajouter un Contact"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/labelFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom complet:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/etFullName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Entrez le nom complet"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/labelFullName"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/labelPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Téléphone:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etFullName"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Entrez le numéro de téléphone"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/labelPhone"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/labelEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etPhone"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Entrez l'email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/labelEmail"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/labelAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adresse:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etEmail"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/etAddress1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Ligne 1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/labelAddress"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/etAddress2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Ligne 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etAddress1"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/labelCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Catégorie:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etAddress2"
+        android:layout_marginTop="16dp" />
+
+    <RadioGroup
+        android:id="@+id/rgCategory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/labelCategory"
+        android:layout_marginTop="8dp">
+
+        <RadioButton
+            android:id="@+id/rbFriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ami"
+            android:layout_marginEnd="16dp" />
+
+        <RadioButton
+            android:id="@+id/rbFamily"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Famille"
+            android:layout_marginEnd="16dp" />
+
+        <RadioButton
+            android:id="@+id/rbWork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Travail" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Ajouter Contact"
+        android:backgroundTint="#4CAF50"
+        app:layout_constraintEnd_toStartOf="@id/btnReset"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/rgCategory"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Réinitialiser"
+        android:backgroundTint="#FF9800"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnAdd"
+        app:layout_constraintTop_toBottomOf="@id/rgCategory"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:id="@+id/tvContactDisplay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Aucun contact ajouté"
+        android:background="#F5F5F5"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnAdd"
+        android:layout_marginTop="24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
